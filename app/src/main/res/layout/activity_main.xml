@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#000000">
+
+    <ImageButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/power_off" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/white"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="FlashMob by Mrinal, Reserved" />
+
+    </FrameLayout>
+
+</RelativeLayout>
